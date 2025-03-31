@@ -19,6 +19,7 @@ function App() {
             <div className="col-md-4 mb-4" key={post.slug}>
               <div className="card">
                 <div className="card-body">
+                  <img className='card-img-top' src={post.image} alt="{post.title}" />
                   <h5 className="card-title">{post.title}</h5>
                   <p className="card-text">{post.content}</p>
                 </div>
